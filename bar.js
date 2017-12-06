@@ -1,6 +1,6 @@
 
 var svg = d3.select("#bar"),
-    margin = {top: 20, right: 20, bottom: 30, left: 40},
+    margin = {top: 50, right: 20, bottom: 30, left: 40},
     width = +svg.attr("width") - margin.left - margin.right,
     height = +svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -45,6 +45,7 @@ d3.csv("data.csv", function(d, i, columns) {
     x0.domain(data.map(function(d) { return d.label; }));
     x1.domain(keys).rangeRound([0, x0.bandwidth()]);
     y.domain([0, d3.max(data, function(d) { return d3.max(keys, function(key) { return d[key]; }); })]).nice();
+    console.log(y);
     g.append("g")
         .selectAll("g")
         .data(data)
@@ -76,16 +77,16 @@ d3.csv("data.csv", function(d, i, columns) {
     g.append("g")
         .attr("class", "axis")
         .attr("transform", "translate(0," + height + ")")
-        .style("font-size","25px")
+        .style("font-size","15px")
         .call(d3.axisBottom(x0));
 
     g.append("g")
         .attr("class", "axis")
-        .style("font-size","15px")
+        .style("font-size","10px")
         .call(d3.axisLeft(y).ticks(null, "s"))
         .append("text")
-        .attr("x", width/2)
-        .attr("y", y(y.ticks().pop()) + 15)
+        .attr("x", x0(data[parseInt(data.length / 2)].label))
+        .attr("y", y(y.ticks().pop()) - 25)
         .attr("dy", "0.32em")
         .attr("font-size", 30)
         .attr("fill", "#000")
