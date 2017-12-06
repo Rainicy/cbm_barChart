@@ -44,7 +44,7 @@ d3.csv("data.csv", function(d, i, columns) {
     data.sort(function(a, b) { return b.marginal - a.marginal; });
     x0.domain(data.map(function(d) { return d.label; }));
     x1.domain(keys).rangeRound([0, x0.bandwidth()]);
-    y.domain([0, d3.max(data, function(d) { return d3.max(keys, function(key) { return d[key]; }); })]).nice();
+    y.domain([0, 1]).nice();
     console.log(y);
     g.append("g")
         .selectAll("g")
