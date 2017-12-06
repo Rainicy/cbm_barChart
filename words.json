@@ -1,0 +1,322 @@
+{
+  "c1": [
+    { "feature" : "web", "score" : 1 },
+    { "feature" : "storm", "score" : 2 },
+    { "feature" : "white", "score" : 3 },
+    { "feature" : "blue", "score" : 4 },
+    { "feature" : "red", "score" : 5 },
+    { "feature" : "color", "score" : 6 },
+    { "feature" : "circle", "score" : 8 },
+    { "feature" : "square", "score" : 9 }
+  ],
+  "c2": [
+    { "feature" : "web", "score" : 11 },
+    { "feature" : "storm", "score" : 12 },
+    { "feature" : "white", "score" : 13 },
+    { "feature" : "blue", "score" : 14 },
+    { "feature" : "red", "score" : 15 },
+    { "feature" : "color", "score" : 16 },
+    { "feature" : "circle", "score" : 18 },
+    { "feature" : "square", "score" : 19 }
+  ],
+  "c3": [
+    { "feature" : "web", "score" : 21 },
+    { "feature" : "storm", "score" : 22 },
+    { "feature" : "white", "score" : 23 },
+    { "feature" : "blue", "score" : 24 },
+    { "feature" : "red", "score" : 25 },
+    { "feature" : "color", "score" : 26 },
+    { "feature" : "circle", "score" : 28 },
+    { "feature" : "square", "score" : 29 }
+  ],
+  "c4": [
+    { "feature" : "web", "score" : 31 },
+    { "feature" : "storm", "score" : 32 },
+    { "feature" : "white", "score" : 33 },
+    { "feature" : "blue", "score" : 34 },
+    { "feature" : "red", "score" : 35 },
+    { "feature" : "color", "score" : 36 },
+    { "feature" : "circle", "score" : 38 },
+    { "feature" : "square", "score" : 39 }
+  ],
+  "c1_sky": [
+    { "feature" : "sky_c1_web", "score" : 41 },
+    { "feature" : "sky_c1_storm", "score" : 42 },
+    { "feature" : "sky_c1_white", "score" : 43 },
+    { "feature" : "sky_c1_blue", "score" : 44 },
+    { "feature" : "sky_c1_red", "score" : 45 },
+    { "feature" : "sky_c1_color", "score" : 46 },
+    { "feature" : "sky_c1_circle", "score" : 48 },
+    { "feature" : "sky_c1_square", "score" : 49 }
+  ],
+  "c2_sky": [
+    { "feature" : "sky_c2_web", "score" : 41 },
+    { "feature" : "sky_c2_storm", "score" : 42 },
+    { "feature" : "sky_c2_white", "score" : 43 },
+    { "feature" : "sky_c2_blue", "score" : 44 },
+    { "feature" : "sky_c2_red", "score" : 45 },
+    { "feature" : "sky_c2_color", "score" : 46 },
+    { "feature" : "sky_c2_circle", "score" : 48 },
+    { "feature" : "sky_c2_square", "score" : 49 }
+  ],
+  "c3_sky": [
+    { "feature" : "sky_c3_web", "score" : 41 },
+    { "feature" : "sky_c3_storm", "score" : 42 },
+    { "feature" : "sky_c3_white", "score" : 43 },
+    { "feature" : "sky_c3_blue", "score" : 44 },
+    { "feature" : "sky_c3_red", "score" : 45 },
+    { "feature" : "sky_c3_color", "score" : 46 },
+    { "feature" : "sky_c3_circle", "score" : 48 },
+    { "feature" : "sky_c3_square", "score" : 49 }
+  ],
+  "c4_sky": [
+    { "feature" : "sky_c4_web", "score" : 41 },
+    { "feature" : "sky_c4_storm", "score" : 42 },
+    { "feature" : "sky_c4_white", "score" : 43 },
+    { "feature" : "sky_c4_blue", "score" : 44 },
+    { "feature" : "sky_c4_red", "score" : 45 },
+    { "feature" : "sky_c4_color", "score" : 46 },
+    { "feature" : "sky_c4_circle", "score" : 48 },
+    { "feature" : "sky_c4_square", "score" : 49 }
+  ],
+  "c1_clouds": [
+    { "feature" : "clouds_c1_web", "score" : 41 },
+    { "feature" : "clouds_c1_storm", "score" : 42 },
+    { "feature" : "clouds_c1_white", "score" : 43 },
+    { "feature" : "clouds_c1_blue", "score" : 44 },
+    { "feature" : "clouds_c1_red", "score" : 45 },
+    { "feature" : "clouds_c1_color", "score" : 46 },
+    { "feature" : "clouds_c1_circle", "score" : 48 },
+    { "feature" : "clouds_c1_square", "score" : 49 }
+  ],
+  "c2_clouds": [
+    { "feature" : "clouds_c2_web", "score" : 41 },
+    { "feature" : "clouds_c2_storm", "score" : 42 },
+    { "feature" : "clouds_c2_white", "score" : 43 },
+    { "feature" : "clouds_c2_blue", "score" : 44 },
+    { "feature" : "clouds_c2_red", "score" : 45 },
+    { "feature" : "clouds_c2_color", "score" : 46 },
+    { "feature" : "clouds_c2_circle", "score" : 48 },
+    { "feature" : "clouds_c2_square", "score" : 49 }
+  ],
+  "c3_clouds": [
+    { "feature" : "clouds_c3_web", "score" : 41 },
+    { "feature" : "clouds_c3_storm", "score" : 42 },
+    { "feature" : "clouds_c3_white", "score" : 43 },
+    { "feature" : "clouds_c3_blue", "score" : 44 },
+    { "feature" : "clouds_c3_red", "score" : 45 },
+    { "feature" : "clouds_c3_color", "score" : 46 },
+    { "feature" : "clouds_c3_circle", "score" : 48 },
+    { "feature" : "clouds_c3_square", "score" : 49 }
+  ],
+  "c4_clouds": [
+    { "feature" : "clouds_c4_web", "score" : 41 },
+    { "feature" : "clouds_c4_storm", "score" : 42 },
+    { "feature" : "clouds_c4_white", "score" : 43 },
+    { "feature" : "clouds_c4_blue", "score" : 44 },
+    { "feature" : "clouds_c4_red", "score" : 45 },
+    { "feature" : "clouds_c4_color", "score" : 46 },
+    { "feature" : "clouds_c4_circle", "score" : 48 },
+    { "feature" : "clouds_c4_square", "score" : 49 }
+  ],
+  "c1_sunsets": [
+    { "feature" : "sunsets_c1_web", "score" : 41 },
+    { "feature" : "sunsets_c1_storm", "score" : 42 },
+    { "feature" : "sunsets_c1_white", "score" : 43 },
+    { "feature" : "sunsets_c1_blue", "score" : 44 },
+    { "feature" : "sunsets_c1_red", "score" : 45 },
+    { "feature" : "sunsets_c1_color", "score" : 46 },
+    { "feature" : "sunsets_c1_circle", "score" : 48 },
+    { "feature" : "sunsets_c1_square", "score" : 49 }
+  ],
+  "c2_sunsets": [
+    { "feature" : "sunsets_c2_web", "score" : 41 },
+    { "feature" : "sunsets_c2_storm", "score" : 42 },
+    { "feature" : "sunsets_c2_white", "score" : 43 },
+    { "feature" : "sunsets_c2_blue", "score" : 44 },
+    { "feature" : "sunsets_c2_red", "score" : 45 },
+    { "feature" : "sunsets_c2_color", "score" : 46 },
+    { "feature" : "sunsets_c2_circle", "score" : 48 },
+    { "feature" : "sunsets_c2_square", "score" : 49 }
+  ],
+  "c3_sunsets": [
+    { "feature" : "sunsets_c3_web", "score" : 41 },
+    { "feature" : "sunsets_c3_storm", "score" : 42 },
+    { "feature" : "sunsets_c3_white", "score" : 43 },
+    { "feature" : "sunsets_c3_blue", "score" : 44 },
+    { "feature" : "sunsets_c3_red", "score" : 45 },
+    { "feature" : "sunsets_c3_color", "score" : 46 },
+    { "feature" : "sunsets_c3_circle", "score" : 48 },
+    { "feature" : "sunsets_c3_square", "score" : 49 }
+  ],
+  "c4_sunsets": [
+    { "feature" : "sunsets_c4_web", "score" : 41 },
+    { "feature" : "sunsets_c4_storm", "score" : 42 },
+    { "feature" : "sunsets_c4_white", "score" : 43 },
+    { "feature" : "sunsets_c4_blue", "score" : 44 },
+    { "feature" : "sunsets_c4_red", "score" : 45 },
+    { "feature" : "sunsets_c4_color", "score" : 46 },
+    { "feature" : "sunsets_c4_circle", "score" : 48 },
+    { "feature" : "sunsets_c4_square", "score" : 49 }
+  ],
+  "c1_lake": [
+    { "feature" : "lake_c1_web", "score" : 41 },
+    { "feature" : "lake_c1_storm", "score" : 42 },
+    { "feature" : "lake_c1_white", "score" : 43 },
+    { "feature" : "lake_c1_blue", "score" : 44 },
+    { "feature" : "lake_c1_red", "score" : 45 },
+    { "feature" : "lake_c1_color", "score" : 46 },
+    { "feature" : "lake_c1_circle", "score" : 48 },
+    { "feature" : "lake_c1_square", "score" : 49 }
+  ],
+  "c2_lake": [
+    { "feature" : "lake_c2_web", "score" : 41 },
+    { "feature" : "lake_c2_storm", "score" : 42 },
+    { "feature" : "lake_c2_white", "score" : 43 },
+    { "feature" : "lake_c2_blue", "score" : 44 },
+    { "feature" : "lake_c2_red", "score" : 45 },
+    { "feature" : "lake_c2_color", "score" : 46 },
+    { "feature" : "lake_c2_circle", "score" : 48 },
+    { "feature" : "lake_c2_square", "score" : 49 }
+  ],
+  "c3_lake": [
+    { "feature" : "lake_c3_web", "score" : 41 },
+    { "feature" : "lake_c3_storm", "score" : 42 },
+    { "feature" : "lake_c3_white", "score" : 43 },
+    { "feature" : "lake_c3_blue", "score" : 44 },
+    { "feature" : "lake_c3_red", "score" : 45 },
+    { "feature" : "lake_c3_color", "score" : 46 },
+    { "feature" : "lake_c3_circle", "score" : 48 },
+    { "feature" : "lake_c3_square", "score" : 49 }
+  ],
+  "c4_lake": [
+    { "feature" : "lake_c4_web", "score" : 41 },
+    { "feature" : "lake_c4_storm", "score" : 42 },
+    { "feature" : "lake_c4_white", "score" : 43 },
+    { "feature" : "lake_c4_blue", "score" : 44 },
+    { "feature" : "lake_c4_red", "score" : 45 },
+    { "feature" : "lake_c4_color", "score" : 46 },
+    { "feature" : "lake_c4_circle", "score" : 48 },
+    { "feature" : "lake_c4_square", "score" : 49 }
+  ],
+  "c1_reflection": [
+    { "feature" : "refelctions_c1_web", "score" : 41 },
+    { "feature" : "refelctions_c1_storm", "score" : 42 },
+    { "feature" : "refelctions_c1_white", "score" : 43 },
+    { "feature" : "refelctions_c1_blue", "score" : 44 },
+    { "feature" : "refelctions_c1_red", "score" : 45 },
+    { "feature" : "refelctions_c1_color", "score" : 46 },
+    { "feature" : "refelctions_c1_circle", "score" : 48 },
+    { "feature" : "refelctions_c1_square", "score" : 49 }
+  ],
+  "c2_reflection": [
+    { "feature" : "refelctions_c2_web", "score" : 41 },
+    { "feature" : "refelctions_c2_storm", "score" : 42 },
+    { "feature" : "refelctions_c2_white", "score" : 43 },
+    { "feature" : "refelctions_c2_blue", "score" : 44 },
+    { "feature" : "refelctions_c2_red", "score" : 45 },
+    { "feature" : "refelctions_c2_color", "score" : 46 },
+    { "feature" : "refelctions_c2_circle", "score" : 48 },
+    { "feature" : "refelctions_c2_square", "score" : 49 }
+  ],
+  "c3_reflection": [
+    { "feature" : "refelctions_c3_web", "score" : 41 },
+    { "feature" : "refelctions_c3_storm", "score" : 42 },
+    { "feature" : "refelctions_c3_white", "score" : 43 },
+    { "feature" : "refelctions_c3_blue", "score" : 44 },
+    { "feature" : "refelctions_c3_red", "score" : 45 },
+    { "feature" : "refelctions_c3_color", "score" : 46 },
+    { "feature" : "refelctions_c3_circle", "score" : 48 },
+    { "feature" : "refelctions_c3_square", "score" : 49 }
+  ],
+  "c4_reflection": [
+    { "feature" : "refelctions_c4_web", "score" : 41 },
+    { "feature" : "refelctions_c4_storm", "score" : 42 },
+    { "feature" : "refelctions_c4_white", "score" : 43 },
+    { "feature" : "refelctions_c4_blue", "score" : 44 },
+    { "feature" : "refelctions_c4_red", "score" : 45 },
+    { "feature" : "refelctions_c4_color", "score" : 46 },
+    { "feature" : "refelctions_c4_circle", "score" : 48 },
+    { "feature" : "refelctions_c4_square", "score" : 49 }
+  ],
+  "c1_ocean": [
+    { "feature" : "ocean_c1_web", "score" : 41 },
+    { "feature" : "ocean_c1_storm", "score" : 42 },
+    { "feature" : "ocean_c1_white", "score" : 43 },
+    { "feature" : "ocean_c1_blue", "score" : 44 },
+    { "feature" : "ocean_c1_red", "score" : 45 },
+    { "feature" : "ocean_c1_color", "score" : 46 },
+    { "feature" : "ocean_c1_circle", "score" : 48 },
+    { "feature" : "ocean_c1_square", "score" : 49 }
+  ],
+  "c2_ocean": [
+    { "feature" : "ocean_c2_web", "score" : 41 },
+    { "feature" : "ocean_c2_storm", "score" : 42 },
+    { "feature" : "ocean_c2_white", "score" : 43 },
+    { "feature" : "ocean_c2_blue", "score" : 44 },
+    { "feature" : "ocean_c2_red", "score" : 45 },
+    { "feature" : "ocean_c2_color", "score" : 46 },
+    { "feature" : "ocean_c2_circle", "score" : 48 },
+    { "feature" : "ocean_c2_square", "score" : 49 }
+  ],
+  "c3_ocean": [
+    { "feature" : "ocean_c3_web", "score" : 41 },
+    { "feature" : "ocean_c3_storm", "score" : 42 },
+    { "feature" : "ocean_c3_white", "score" : 43 },
+    { "feature" : "ocean_c3_blue", "score" : 44 },
+    { "feature" : "ocean_c3_red", "score" : 45 },
+    { "feature" : "ocean_c3_color", "score" : 46 },
+    { "feature" : "ocean_c3_circle", "score" : 48 },
+    { "feature" : "ocean_c3_square", "score" : 49 }
+  ],
+  "c4_ocean": [
+    { "feature" : "ocean_c4_web", "score" : 41 },
+    { "feature" : "ocean_c4_storm", "score" : 42 },
+    { "feature" : "ocean_c4_white", "score" : 43 },
+    { "feature" : "ocean_c4_blue", "score" : 44 },
+    { "feature" : "ocean_c4_red", "score" : 45 },
+    { "feature" : "ocean_c4_color", "score" : 46 },
+    { "feature" : "ocean_c4_circle", "score" : 48 },
+    { "feature" : "ocean_c4_square", "score" : 49 }
+  ],
+  "c1_beach": [
+    { "feature" : "beach_c1_web", "score" : 41 },
+    { "feature" : "beach_c1_storm", "score" : 42 },
+    { "feature" : "beach_c1_white", "score" : 43 },
+    { "feature" : "beach_c1_blue", "score" : 44 },
+    { "feature" : "beach_c1_red", "score" : 45 },
+    { "feature" : "beach_c1_color", "score" : 46 },
+    { "feature" : "beach_c1_circle", "score" : 48 },
+    { "feature" : "beach_c1_square", "score" : 49 }
+  ],
+  "c2_beach": [
+    { "feature" : "beach_c2_web", "score" : 41 },
+    { "feature" : "beach_c2_storm", "score" : 42 },
+    { "feature" : "beach_c2_white", "score" : 43 },
+    { "feature" : "beach_c2_blue", "score" : 44 },
+    { "feature" : "beach_c2_red", "score" : 45 },
+    { "feature" : "beach_c2_color", "score" : 46 },
+    { "feature" : "beach_c2_circle", "score" : 48 },
+    { "feature" : "beach_c2_square", "score" : 49 }
+  ],
+  "c3_beach": [
+    { "feature" : "beach_c3_web", "score" : 41 },
+    { "feature" : "beach_c3_storm", "score" : 42 },
+    { "feature" : "beach_c3_white", "score" : 43 },
+    { "feature" : "beach_c3_blue", "score" : 44 },
+    { "feature" : "beach_c3_red", "score" : 45 },
+    { "feature" : "beach_c3_color", "score" : 46 },
+    { "feature" : "beach_c3_circle", "score" : 48 },
+    { "feature" : "beach_c3_square", "score" : 49 }
+  ],
+  "c4_beach": [
+    { "feature" : "beach_c4_web", "score" : 41 },
+    { "feature" : "beach_c4_storm", "score" : 42 },
+    { "feature" : "beach_c4_white", "score" : 43 },
+    { "feature" : "beach_c4_blue", "score" : 44 },
+    { "feature" : "beach_c4_red", "score" : 45 },
+    { "feature" : "beach_c4_color", "score" : 46 },
+    { "feature" : "beach_c4_circle", "score" : 48 },
+    { "feature" : "beach_c4_square", "score" : 49 }
+  ]
+}
