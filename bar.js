@@ -1,6 +1,6 @@
 
 var svg = d3.select("#bar"),
-    margin = {top: 20, right: 20, bottom: 30, left: 40},
+    margin = {top: 50, right: 20, bottom: 30, left: 40},
     width = +svg.attr("width") - margin.left - margin.right,
     height = +svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -84,8 +84,8 @@ d3.csv("data.csv", function(d, i, columns) {
         .style("font-size","15px")
         .call(d3.axisLeft(y).ticks(null, "s"))
         .append("text")
-        .attr("x", width/2)
-        .attr("y", y(y.ticks().pop()) + 15)
+        .attr("x", x0(data[parseInt(data.length / 2)].label))
+        .attr("y", y(y.ticks().pop()) - 25)
         .attr("dy", "0.32em")
         .attr("font-size", 30)
         .attr("fill", "#000")
